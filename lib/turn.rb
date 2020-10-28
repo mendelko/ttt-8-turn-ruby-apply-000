@@ -44,6 +44,7 @@ def turn(board)
     turn(board)
   end
 end
+
   display_board(board)
 end
 
@@ -63,4 +64,6 @@ def current_player(board)
   else
     current_player = "O"
 return current_player
-end
+    end
+  end
+
