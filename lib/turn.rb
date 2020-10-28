@@ -66,4 +66,3 @@ def current_player(board)
 return current_player
     end
   end
-
