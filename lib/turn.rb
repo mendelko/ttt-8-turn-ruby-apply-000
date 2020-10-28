@@ -46,6 +46,3 @@ def turn(board)
 end
 
   display_board(board)
-
-
-
