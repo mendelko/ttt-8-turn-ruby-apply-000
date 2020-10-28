@@ -48,12 +48,4 @@ end
   display_board(board)
 
 
-def turn_count(board)
-  counter = 0
-  loop do
-    counter += 1
-    puts "#{board}"
-    if counter >= 10
-      break
-    end
-  end
+
