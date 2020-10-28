@@ -62,20 +62,6 @@ def current_player(board)
     current_player = "X"
   else
     current_player = "O"
-end
 return current_player
 end
 
-def play(board)
-  until over?(board) == true || won?(board) != false
-  puts 'turn'
-    turn(board)
-  end
-  if winner(board)
-    puts "Congratulations!"
-  elsif draw?(board)
-    puts "Draw!"
-  else
-    return nil
-  end
-end
