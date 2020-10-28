@@ -56,4 +56,3 @@ def turn_count(board)
     if counter >= 10
       break
     end
-  
