@@ -10,6 +10,8 @@ puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 def valid_move?(board, index)
+  index = input_to_index(user_input)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   if !position_taken?(board, index) && (index).between?(0,8)
     return true
   else
