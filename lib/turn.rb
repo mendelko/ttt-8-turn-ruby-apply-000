@@ -55,4 +55,4 @@ def turn_count(board)
     puts "#{board}"
     if counter >= 10
       break
-    end
+    
