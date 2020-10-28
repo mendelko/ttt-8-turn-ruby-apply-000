@@ -49,7 +49,7 @@ end
 
 def turn_count(board)
   counter = 0
-  loop do 
+  loop do
     counter += 1
     puts "#{board}"
     if counter >= 10
