@@ -35,6 +35,12 @@ def move(array, index, value = "X")
     array[index] = value
 end
 
+
+def player_move(board, index, marker)
+ board[index] = marker
+end
+
+
 def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip
